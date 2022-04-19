@@ -1,0 +1,6 @@
+{
+	"appId": "booking.app",
+	"appName": "booking-app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
