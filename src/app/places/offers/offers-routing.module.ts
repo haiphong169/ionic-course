@@ -20,13 +20,6 @@ const routes: Routes = [
         (m) => m.EditOfferPageModule
       ),
   },
-  {
-    path: ':placeId',
-    loadChildren: () =>
-      import('./offer-booking/offer-booking.module').then(
-        (m) => m.OfferBookingPageModule
-      ),
-  },
 ];
 
 @NgModule({
